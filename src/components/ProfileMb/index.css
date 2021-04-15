@@ -1,0 +1,30 @@
+.i {
+  width: 200px;
+  height: 200px;
+}
+
+.centro {
+  justify-content: center;
+}
+
+.esq {
+  justify-content: left;
+}
+
+.sty2 h1 {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 1rem;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.sty2 h5 {
+  text-align: left;
+  font-family: "Noto Serif";
+  font-weight: lighter;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}

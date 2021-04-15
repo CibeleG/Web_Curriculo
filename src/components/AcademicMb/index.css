@@ -1,0 +1,16 @@
+.fonth {
+  font-size: 28px;
+  justify-content: center;
+  font-family: "Noto Serif";
+}
+
+.fonth h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.fontbh {
+  font-size: 20px;
+  margin-left: 2rem;
+  font-family: "Noto Serif";
+}

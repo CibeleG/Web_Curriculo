@@ -1,0 +1,53 @@
+.fonte {
+  font-family: Montserrat Alternates;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.fonte h2 {
+  font-weight: bold;
+}
+
+.btn-outline-primary {
+  color: black;
+  border-color: #af3232;
+  font-weight: bold;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #af3232;
+  border-color: #af3232;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #af3232;
+  border-color: #af3232;
+}
+
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+  box-shadow: none;
+}
+
+a:-webkit-any-link {
+  color: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .fonte h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
